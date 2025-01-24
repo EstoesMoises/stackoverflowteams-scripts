@@ -1,5 +1,7 @@
 // This script accomplishes the following:
 // Fetches articles by an author ID.
+// It includes the URLs for images in the article content.
+// Useful when trying to retrieve all the images from an article
 // The script uses the following API endpoint:
 // GET /api/v3/articles
 // Note: The API v3 call requires a bearer token with read permissions.
