@@ -1,10 +1,10 @@
-# CommonJS Scripts for Stack Overflow Teams and Enterprise API v3
+# JS Scripts for Stack Overflow Teams and Enterprise API v3
 
 This repository contains a collection of scripts designed to demonstrate how to interact with the Stack Overflow Teams and Enterprise API (Version 3). These scripts serve as practical examples for developers aiming to leverage the API in their own projects.
 
-Currently, only CommonJS (CJS) scripts are included, but the repository may be expanded in the future to include scripts in other programming languages. See the 'Contributing' section below for more details.
+Currently, only JS scripts are included, but the repository may be expanded in the future to include scripts in other programming languages. See the 'Contributing' section below for more details.
 
-## Prerequisites for CJS Scripts
+## Prerequisites for JS Scripts
 
 A basic understanding of JavaScript is recommended. 
 
