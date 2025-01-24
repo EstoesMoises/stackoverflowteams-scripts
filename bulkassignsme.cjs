@@ -68,7 +68,8 @@ const getUserIdByEmail = async (email, hostname, token) => {
 
   try {
     const data = await httpRequest(options, token);
-    console.log(`Response for email ${email}:`, data); // Debug log
+    // Debug log
+    // console.log(`Response for email ${email}:`, data); 
     if (!data.id) {
       console.warn(`User ID not found for email: ${email}`);
       return null;
@@ -99,7 +100,9 @@ const createUserGroup = async (userIds, groupName, groupDescription, hostname, t
 
   try {
     const response = await httpRequest(options, token, postData);
-    console.log('User group created successfully:', response);
+    // Debug log
+    // console.log('User group created successfully:', response);
+    console.log(`User group ${groupName} created successfully.`);
     return response.id;  // Contains User Group ID
   } catch (error) {
     console.error('Error creating user group:', error);
@@ -122,7 +125,9 @@ const assignUserGroupToTag = async (userGroupId, tagId, hostname, token) => {
 
   try {
     const response = await httpRequest(options, token, postData);
-    console.log('User group assigned to tag successfully:', response);
+    // Debug log
+    // console.log('User group assigned to tag successfully:', response);
+    console.log(`User group assigned to tag ${tagId} successfully.`);
   } catch (error) {
     console.error('Error assigning user group to tag:', error);
   }
